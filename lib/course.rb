@@ -2,7 +2,10 @@ class Course
 
   attr_accessor :title, :schedule, :description
 
-  def method_name
+  @@all = []
+
+  def initialize
+    @@all << self
 
   end
 
